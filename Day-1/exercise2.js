@@ -1,0 +1,1 @@
+// 30GündeJavaScript eğitimine hoşgeldiniz
