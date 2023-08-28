@@ -35,3 +35,4 @@ class Dog extends Animal
 }
 const ceku = new Dog("Köpek","Ceku",5,"Golden",4,"havhav");
 console.log(ceku);
+console.log(ceku.getAnimalInfo);
