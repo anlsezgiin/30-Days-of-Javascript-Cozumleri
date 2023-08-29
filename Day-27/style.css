@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body
+{
+    background-color:beige;
+}
+.main-container
+{
+    padding: 70px;
+    
+}
+h1
+{
+    all: unset;
+    letter-spacing: 20px;
+    font-size: 100px;
+}
+.degree-container
+{
+    background-color: pink;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white;
+}
+.degree-value
+{
+    padding: 15px;
+    font-size: 25px;
+}
+.info-container
+{
+    line-height: 30px;
+}
+.proje
+{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white;
+    transition: transform 0.3s;
+}
+.proje:hover
+{
+    transform: scale(1.1);
+}
+.project-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    justify-items: center;
+}
+.musicians-container
+{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.musician-value
+{
+    font-size: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+.random-color
+{
+    color: rgb(0,0,0)
+}

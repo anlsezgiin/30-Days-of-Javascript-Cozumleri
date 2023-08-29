@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> <!-- bootstrapı ekledimde kullanmıcam galiba :D(bu yorum satırını yazarken kibariye illede roman olsun dinliyordum o yüzden saçma gelebilir :D)-->
+	<link rel="stylesheet" href="style.css">
+	<title>Solar System</title>
+</head>
+<body class="bg">
+	<header>
+		<h1>Calculate a weight of an object on planet</h1>
+	</header>
+	<main>
+		<div class="input-container">
+			<input type="number" class="">
+			<select class="">
+				<option value="">--Please choose a planet--</option>
+				<option value="mercury">Mercury</option>
+				<option value="venus">Venus</option>
+				<option value="earth">Earth</option>
+				<option value="mars">Mars</option>
+				<option value="jupiter">Jupiter</option>
+				<option value="saturn">Saturn</option>
+				<option value="uranus">Uranus</option>
+				<option value="neptune">Neptune</option>
+			</select>
+			<button type="submit" onclick="calculateWeight()">Calculate Weights</button>
+		</div>
+		
+		<div class="ogre-container bg-opa">
+			<img src="./images/earth.png" alt="earth">
+			
+		</div>
+	</main>
+	<script src="./scripts/main.js"></script>
+</body>
+</html>

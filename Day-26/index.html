@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World Countries List</title>
+</head>
+<body>
+    <div class="cont-header">
+        <h1>WORLD COUNTRIES LIST</h1>
+        <p class="par-1">Total Number of countries <span value="count">193</span></p>
+        <p class="par-1" id="par-2">...</p>
+        <div class="cont-butts">
+            <label>
+                starting word
+                <input type="radio" name="filter" value="starts-with" id="startsWithRadio">
+            </label>
+            <label>
+                search with any word
+                <input type="radio" name="filter" value="search-word" id="searchWithAnyWord">
+            </label>
+            <label>
+                Sort Z-A
+                <input type="checkbox" name="sort" id="aToZ">
+            </label>
+        </div>
+        <form action="">
+            <input type="text" id="search" name="searching" placeholder="Search">
+        </form>
+    </div>
+    
+    <div class="main-container">
+        
+    </div>
+    <script src="./scripts/main.js" defer></script>
+    
+</body>
+</html>
