@@ -1,0 +1,29 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color:white;
+}
+p
+{
+    color: grey;
+}
+.colorGreen
+{
+    color:green;
+}
+.colorBlue
+{
+    color:blue;
+}
+.colorRed
+{
+    color:red;
+}
+.sameClass
+{
+    color:blueviolet;
+    font-size: 20px;
+}
